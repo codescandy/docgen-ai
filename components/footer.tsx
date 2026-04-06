@@ -7,8 +7,8 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded bg-background/20 flex items-center justify-center">
-                <span className="text-background font-bold">⚖</span>
+              <div className="">
+               <img src="/docgen-ai-logo.svg" alt="DocGenAI logo" className="h-7 w-7" />
               </div>
               <span className="font-bold text-lg">DocGenAI</span>
             </div>

@@ -9,8 +9,9 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between py-4">
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary via-primary to-primary/80 flex items-center justify-center">
-              <span className="text-lg font-black text-white">⚖</span>
+            <div className="">
+              
+            <img src="/docgen-ai-logo.svg" alt="DocGenAI logo" className="h-7 w-7" />
             </div>
             <span className="font-black text-xl tracking-tight text-foreground">DocGenAI</span>
           </Link>
