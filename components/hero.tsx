@@ -53,9 +53,7 @@ export function Hero() {
           <div className="relative hidden lg:block">
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/15 via-primary/5 to-muted border border-primary/30 flex items-center justify-center p-8">
               <div className="text-center space-y-4">
-                <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mx-auto">
-                  <span className="text-4xl">📄</span>
-                </div>
+               <img src="/docsbot.png" alt="" />
                 <p className="text-muted-foreground font-medium">AI-Powered Document Generation</p>
               </div>
             </div>
