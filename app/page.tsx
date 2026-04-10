@@ -9,6 +9,7 @@ import { Pricing } from "@/components/pricing"
 import { FAQ } from "@/components/faq"
 import { FinalCTA } from "@/components/final-cta"
 import { Footer } from "@/components/footer"
+import {Download} from "@/components/download"
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Pricing />
       <FAQ />
       <FinalCTA />
+      <Download/>
       <Footer />
     </div>
   )
